@@ -1,0 +1,135 @@
+/*Assignment 1 Basic Portfolio style2.css */
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+a:link {
+    color: #aaa;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #aaa
+}
+
+#largeHeaderBox {
+    color: #eee;
+    height: 85px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #cccc;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#smallHeaderBox{
+    height: 85px;
+    width: 960px;
+    color: #63A8A4;
+    font-size: 20px;
+    background-color: white;
+    border-bottom: 1px solid #cccc;
+    position: relative;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+#linkBox {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eee;
+    height: 85px;
+    width: auto;
+    padding-top: 30px;
+    
+    background-color: white;
+    border-bottom: 1px solid #cccc;
+    float: right;
+}
+
+#nameBox {
+    height: 85px;
+    width: 250px;
+    color: white;
+    text-align: center;
+    font-size:20px;
+    padding-top: 1px 0;
+    background-color: #63A8A4;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#contact {
+    height: 495px;
+    width: 960px;
+    color: #63A8A4;
+    font-size: 20px;
+    border: .5px solid #ddd;
+    background-color: white;
+    position: relative;
+    top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #AAAAAA;
+    margin-bottom: 1px;
+}
+
+.inputStyle{
+    font-size: 10pt; 
+    height: 30px; 
+    width:100%;
+    padding-left: 7px;
+    border: 2px solid #bbbbbb;
+    opacity: 0.55;
+}
+
+.textAreaStyle {
+    border: 2px solid #bbbbbb;
+    size: 20px;
+    opacity: 0.55;
+}
+
+.buttonStyle {
+    background-color: #63A8A4;
+    height: 35px;
+    width: 100px;
+    color: white;
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#footer {
+    clear: both;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #BBBBBB;
+    height: 70px;
+    width: 100%;
+    padding-top: 40px;
+    border-top: 8px solid #63A8A4;
+    background-color: #616161;
+    margin-top: 450px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+ 

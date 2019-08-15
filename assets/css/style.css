@@ -1,0 +1,121 @@
+/*Assignment 1 Basic Portfolio style.css*/
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+a:link {
+    color: #aaa;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #aaa
+}
+
+#largeHeaderBox {
+    color: #eee;
+    height: 85px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #cccc;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#smallHeaderBox{
+    height: 85px;
+    width: 960px;
+    color: #63A8A4;
+    font-size: 20px;
+    background-color: white;
+    border-bottom: 1px solid #cccc;
+    position: relative;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+#linkBox {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eee;
+    height: 85px;
+    width: auto;
+    padding-top: 30px;
+    
+    background-color: white;
+    border-bottom: 1px solid #cccc;
+    float: right;
+}
+
+#nameBox {
+    height: 85px;
+    width: 250px;
+    color: white;
+    text-align: center;
+    font-size:20px;
+    padding-top: 1px 0;
+    background-color: #63A8A4;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#bio {
+    height: 400px;
+    width: 960px;
+    color: #63A8A4;
+    font-size: 20px;
+    border: .5px solid #ddd;
+    background-color: white;
+    position: relative;
+    top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+
+img {
+    display: block;
+    height: 153px;
+    width: 153px;
+    float: left;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #888888;
+}
+
+#footer {
+    clear: both;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #BBBBBB;
+    height: 70px;
+    width: 100%;
+    padding-top: 40px;
+    border-top: 8px solid #63A8A4;
+    background-color: #616161;
+    position: fixed;
+    left: 0px; 
+    bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+
+width: 100%;
+padding: 20px;
+}

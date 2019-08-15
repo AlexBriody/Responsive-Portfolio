@@ -1,0 +1,180 @@
+/*Assignment 1 Basic Portfolio style3.css*/
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+a:link {
+    color: #aaa;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #aaa
+}
+
+#largeHeaderBox {
+    color: #eee;
+    height: 85px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #cccc;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#smallHeaderBox{
+    height: 85px;
+    width: 960px;
+    color: #63A8A4;
+    font-size: 20px;
+    background-color: white;
+    border-bottom: 1px solid #cccc;
+    position: relative;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+#linkBox {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eee;
+    height: 85px;
+    width: auto;
+    padding-top: 30px;
+    
+    background-color: white;
+    border-bottom: 1px solid #cccc;
+    float: right;
+}
+
+#nameBox {
+    height: 85px;
+    width: 250px;
+    color: white;
+    text-align: center;
+    font-size:20px;
+    padding-top: 1px 0;
+    background-color: #63A8A4;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#portfolio {
+    height: 700px;
+    width: 960px;
+    color: #63A8A4;
+    font-size: 20px;
+    border: .5px solid #ddd;
+    background-color: white;
+    position: relative;
+    top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+
+img {
+    display: block;
+    height: 153px;
+    width: 220px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+ .clearfix::after {
+     content: "";
+     display: block;
+     clear: both;
+ }
+ 
+#footer {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #BBBBBB;
+    height: 70px;
+    width: 100%;
+    padding-top: 40px;
+    border-top: 8px solid #63A8A4;
+    background-color: #616161;
+    margin-top: 150px;
+    position: fixed;
+    left: 0px; 
+    bottom: 0px;
+}
+
+#captionHangman {
+    height: 42px;
+    width: 220px;
+    color: white;
+    text-align: center;
+    font-size:11px;
+    padding-top: 1px 0;
+    background-color: #63A8A4;
+    position: absolute;
+    left: 30px;
+    top: 220px;
+}
+
+#captionRPG {
+    height: 42px;
+    width: 220px;
+    color: white;
+    text-align: center;
+    font-size:11px;
+    padding-top: 1px 0;
+    background-color: #63A8A4;
+    position: absolute;
+    left: 290px;
+    top: 220px;
+}
+
+#captionTrivia {
+    height: 42px;
+    width: 220px;
+    color: white;
+    text-align: center;
+    font-size:11px;
+    padding-top: 1px 0;
+    background-color: #63A8A4;
+    position: absolute;
+    left: 30px;
+    top: 414px;
+}
+
+#captionWidget {
+    height: 42px;
+    width: 220px;
+    color: white;
+    text-align: center;
+    font-size:11px;
+    padding-top: 1px 0;
+    background-color: #63A8A4;
+    position: absolute;
+    left: 290px;
+    top: 414px;
+}
+#captionRockPaperScissors {
+    height: 42px;
+    width: 220px;
+    color: white;
+    text-align: center;
+    font-size:11px;
+    padding-top: 1px 0;
+    background-color: #63A8A4;
+    position: absolute;
+    left: 30px;
+    top: 607px;
+}
