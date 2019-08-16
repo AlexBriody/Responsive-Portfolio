@@ -1,4 +1,4 @@
-/*Assignment 1 Basic Portfolio style2.css */
+/*Assignment 2 Responsive Portfolio style2.css */
 
 *{
     box-sizing: border-box;
@@ -75,9 +75,9 @@ a:visited {
     top: 120px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 200px;
     padding-left: 30px;
     padding-right: 30px;
-    
 }
 
 p {
@@ -124,17 +124,12 @@ p {
     padding-top: 40px;
     border-top: 8px solid #63A8A4;
     background-color: #616161;
-    margin-top: 450px;
     position: fixed;
     left: 0px;
     bottom: 0px;
 }
 
 @media screen and (max-width: 980px) {
-
-    body{
-        background: rgb(190, 66, 66);
-        }
     
     #contact {
         width: 75%;
@@ -145,14 +140,11 @@ p {
      #smallHeaderBox{
         width: 74%;
         }
+
 }
     
 
 @media screen and (max-width: 768px) {
-
-    body {
-         background: #333;
-         }
 
     #contact {
         width: 75%;
@@ -163,14 +155,23 @@ p {
     #smallHeaderBox{
         width: 74%;
     }
+
+    #nameBox{
+        width: 230px;
+    }
+
+    #linkBox {
+        padding-right: 3%;
+    }
+
+    #largeHeaderBox {
+        background-color: #EBEBEB;
+        border-bottom: 0px solid #EBEBEB;
+        }
    
 }
 
     @media screen and (max-width: 640px) {
-
-        body {
-             background: rgb(39, 156, 55);
-             }
 
         #contact {
             width: 75%;
@@ -187,6 +188,7 @@ p {
         #linkBox {
             width: 100%;
             height: 55%;
+            font-size: .85em;
             padding-left: 22%;
             padding-top: 4%;
         }
